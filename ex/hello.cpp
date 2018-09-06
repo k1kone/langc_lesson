@@ -21,7 +21,10 @@ useing〜　の記述がないと、cout部分の記述を
 
 
 Linuxコマンドラインからコンパイルする場合は
-	g++ filename
+	g++ filename.cpp
 を入力してください。
+コンパイルファイル名を指定する場合は、
+	g++ filename.cpp -o compilefilename
+と -o オプションをつけてください。
 
 ーーーーーーーーーーーーーー*/

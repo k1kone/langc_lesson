@@ -35,6 +35,9 @@ int main(){
 
 	dt.disp();
 
+	Person dt2("Tanaka",55);
+	dt2.disp();
+
 	return 0;
 }
 

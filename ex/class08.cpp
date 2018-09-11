@@ -25,7 +25,8 @@ class Bar : public Foo {
 
 };
 
-
+//次のように、派生クラスから基底クラスのコンストラクタを呼び出す機能があります。
+//Bar::Bar(int n1, int n2) : Foo(n1) { y = n2; }
 
 int main(){
 	
